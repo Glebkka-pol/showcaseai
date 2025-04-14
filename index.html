@@ -17,6 +17,24 @@
         font-family: 'Outfit', sans-serif;
       }
     </style>
+
+  <script type="application/javascript">
+      window.tiledeskSettings= 
+      {
+          projectid: "67fd8a6f729b000013e87511"
+      };
+      (function(d, s, id) { 
+          var w=window; var d=document; var i=function(){i.c(arguments);};
+          i.q=[]; i.c=function(args){i.q.push(args);}; w.Tiledesk=i;                    
+          var js, fjs=d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js=d.createElement(s); 
+          js.id=id; js.async=true; js.src="https://widget.tiledesk.com/v6/launch.js";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document,'script','tiledesk-jssdk'));
+  </script>
+
+
   </head>
   <body class="text-white">
     <header class="fixed top-0 left-0 w-full px-4 py-3 bg-black/30 backdrop-blur z-50 flex justify-between items-center">
@@ -132,17 +150,28 @@
       </section>
     </main>
 
-  <!-- ФУТЕР -->
+  <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" title="Volver arriba"
+        class="fixed bottom-6 right-6 bg-cyan-500 hover:bg-cyan-400 text-black font-bold p-3 rounded-full shadow-lg z-50 transition">
+        ↑
+      </button>
+
       <footer class="bg-black/50 border-t border-gray-700 text-center text-sm text-gray-400 py-6 mt-20">
-        <p>&copy; 2024 MaxiBot. Todos los derechos reservados.</p>
+        <p>&copy; 2024 MaxiBot. <span class="lang-es">Todos los derechos reservados.</span> <span class="lang-en">All rights reserved.</span></p>
         <p class="mt-2">
-          <a href="#" class="underline hover:text-white">Política de privacidad</a> ·
-          <a href="#" class="underline hover:text-white">Términos y condiciones</a>
+          <a href="#" class="underline hover:text-white"><span class="lang-es">Política de privacidad</span><span class="lang-en">Privacy Policy</span></a>
+          ·
+          <a href="#" class="underline hover:text-white"><span class="lang-es">Términos y condiciones</span><span class="lang-en">Terms & Conditions</span></a>
         </p>
       </footer>
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script>
+      function setLanguage(lang) {
+        document.body.classList.remove('lang-es', 'lang-en');
+        document.body.classList.add('lang-' + lang);
+      }
+    </script>
   </body>
 </html>
