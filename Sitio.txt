@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaxiBot - IA para tu negocio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+        background-image: url('data:image/svg+xml,%3Csvg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1600 900"%3E%3Cg%3E%3Cpath d="M0 0L1600 0L1600 250C1400 300 1200 200 1000 250C800 300 600 200 400 250C200 300 0 200 0 250Z" fill="%23ffffff0a"/%3E%3C/g%3E%3C/svg%3E');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="text-white font-sans">
+    <main class="min-h-screen px-4 py-10">
+      <section class="max-w-5xl mx-auto text-center mb-16" data-aos="fade-down">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-sky-500 to-indigo-500 bg-clip-text text-transparent">
+          MaxiBot: El Agente de IA del Futuro
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto">
+          Más allá del chatbot. Nuestra IA híbrida comprende, aprende y convierte. Diseñada para negocios que quieren liderar el mañana.
+        </p>
+      </section>
+
+      <section class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 mb-24 items-center">
+        <div data-aos="fade-right">
+          <h2 class="text-3xl font-semibold mb-4 text-cyan-300">Chatbot tradicional vs MaxiBot</h2>
+          <ul class="text-lg text-gray-200 space-y-3">
+            <li>✅ Entiende el contexto vs ❌ Solo responde scripts</li>
+            <li>✅ Entrenado con tus datos vs ❌ Generalizado</li>
+            <li>✅ Conversación natural vs ❌ Respuestas rígidas</li>
+            <li>✅ Mejora constante vs ❌ Estático</li>
+          </ul>
+        </div>
+        <div class="h-64 bg-gray-800 rounded-3xl border border-gray-700 animate-pulse flex items-center justify-center text-gray-400" data-aos="fade-left">
+          Imagen IA (próximamente)
+        </div>
+      </section>
+
+      <section class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 mb-24 items-center">
+        <div class="h-64 bg-gray-800 rounded-3xl border border-gray-700 animate-pulse flex items-center justify-center text-gray-400" data-aos="fade-right">
+          Imagen Automatización (próximamente)
+        </div>
+        <div data-aos="fade-left">
+          <h2 class="text-3xl font-semibold mb-4 text-cyan-300">¿Qué puede hacer MaxiBot?</h2>
+          <ul class="text-lg text-gray-200 space-y-3">
+            <li>🤖 Atender clientes 24/7 en WhatsApp y web</li>
+            <li>📦 Tomar pedidos y reservas automáticamente</li>
+            <li>✉️ Responder correos con lenguaje natural</li>
+            <li>📣 Crear contenido personalizado</li>
+            <li>📊 Seguir leads y automatizar ventas</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="bg-gray-900 py-12 px-6 rounded-2xl shadow-2xl max-w-3xl mx-auto mb-20 border border-gray-700" data-aos="zoom-in">
+        <h2 class="text-3xl font-semibold mb-4 text-center text-cyan-200">Solicita tu propuesta personalizada</h2>
+        <p class="text-center text-gray-400 mb-8">Cuéntanos qué hace tu negocio y descubre lo que una IA puede hacer por ti. Sin tecnicismos, sin presión.</p>
+        <form class="grid gap-5">
+          <input class="bg-gray-800 border border-gray-600 text-white p-3 rounded-xl focus:ring-2 focus:ring-cyan-500" type="text" placeholder="Nombre" required />
+          <input class="bg-gray-800 border border-gray-600 text-white p-3 rounded-xl focus:ring-2 focus:ring-cyan-500" type="email" placeholder="Correo electrónico" required />
+          <textarea class="bg-gray-800 border border-gray-600 text-white p-3 rounded-xl focus:ring-2 focus:ring-cyan-500" placeholder="¿Qué tareas quieres automatizar?" rows="4" required></textarea>
+          <button class="bg-cyan-500 text-black py-3 px-6 rounded-xl hover:bg-cyan-400 transition font-semibold">Enviar solicitud</button>
+        </form>
+
+        <div class="flex flex-col md:flex-row justify-center items-center gap-4 mt-8">
+          <a href="mailto:tu-correo@dominio.com" class="bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition">Escribir por correo</a>
+          <a href="https://wa.me/34600000000?text=Hola,%20quiero%20optimizar%20mi%20negocio%20con%20IA.%20%C2%BFMe%20puedes%20ayudar%3F" target="_blank" class="bg-green-500 hover:bg-green-400 text-white px-6 py-3 rounded-xl font-semibold transition">Escribir por WhatsApp</a>
+        </div>
+      </section>
+
+      <section class="max-w-4xl mx-auto text-center mb-16" data-aos="fade-up">
+        <h3 class="text-xl text-gray-400">Más de 30 negocios ya usan MaxiBot para vender y atender sin estrés.</h3>
+        <p class="mt-2 text-gray-500">¿El próximo eres tú?</p>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  </body>
+</html>
